@@ -1,5 +1,4 @@
-let firstName = 'Erman';
-let lastName = 'Junaidi'
-
-console.log(firstName);
-console.log(lastName);
+let name = 'erman';
+let age = 35;
+let isApproved = undifined;
+let selectorColour = null;
