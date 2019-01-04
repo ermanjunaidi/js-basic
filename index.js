@@ -1,10 +1,2 @@
-//performing a task
-function greet(name, lastName) {
-    console.log('Hello '+ name + ' ' + lastName)
-}
-
-// calculate a value
-function square(number) {
-    return number * number;
-}
-console.log(square(7));
+let x = (5 + 7 - 3) * 25
+console.log(x)
