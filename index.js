@@ -1,4 +1,11 @@
-let x = 10;
+let x = 1;
 
-x += 5;
-console.log(x);
+// Relational
+console.log(x > 0)
+console.log(x >= 1)
+console.log(x > 1)
+console.log(x <= 1)
+
+// Equality
+console.log(x === 1)
+console.log(x !== 0)
