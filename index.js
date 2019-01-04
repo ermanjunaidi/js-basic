@@ -1,19 +1,4 @@
-let x = 20;
-let y = 6;
-let z = 15;
-console.log(x + y);
-console.log(x - y);
-console.log(x * y);
-console.log(x / y);
-console.log(x % y);
-console.log(x ** y);
+let x = 10;
 
-
-//Increment
-console.log(x++);
+x += 5;
 console.log(x);
-
-//Decrement
-
-console.log(z--);
-console.log(z);
