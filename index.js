@@ -1,4 +1,7 @@
 
-let selectedColors = ['merah', 'biru'];
-selectedColors[2]='hijau'
-console.log(selectedColors);
+function greet(name, lastName) {
+    console.log('Hello '+ name + ' ' + lastName)
+}
+
+greet('Erman', 'Junaidi');
+// greet('Junaidi');
