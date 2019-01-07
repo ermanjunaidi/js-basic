@@ -1,5 +1,10 @@
-let points = 100;
+//Logical OR
+let highIncome = false
+let goodCreditScore = false
+let eligibleForLoan = highIncome || goodCreditScore
 
-let type = points > 90 ? 'gold' : 'silver'
+console.log('Eligible', eligibleForLoan)
 
-console.log(type)
+//NOT
+let applicationRefused = !eligibleForLoan
+console.log('Aplication Refused', applicationRefused)
