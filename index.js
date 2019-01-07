@@ -1,5 +1,9 @@
-let x = 10
+//Strict Equality ( Type + Value)
+console.log(1 === 1);
+console.log('1' === 1);
 
-x += 10;
+//Lost Equality
 
-console.log(x)
+console.log(1 == 1);
+console.log('1' == 1);
+console.log(true == 1);
