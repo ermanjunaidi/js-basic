@@ -1,13 +1,19 @@
-let hour = 19
-    if (hour >= 6 && hour < 12) {
-        console.log("Good Morning")
-    }
+let role = 'moderator'
 
-    else if (hour >= 12 && hour < 18) {
-        console.log("Good Afternoon")
-    }
+switch (role) {
+    case 'guest':
+        console.log('Guest User')
+        break
 
-    else  
-    console.log('Good Evening')
+    case 'moderator':
+        console.log('Moderator User')
+        break
 
+    default:
+        console.log('Unknown User')
 
+}
+
+if (role === 'guest') console.log('Guest');
+else if (role === 'moderator') console.log('Moderator');
+else console.log('Unknown User');
