@@ -1,10 +1,6 @@
-let i = 0
-while (i <= 100) {
-    if (i % 2 === 0) {
-        i++;
-        continue
-    }
-    
-    console.log(i)
-    i++
+let number = max (9, 90)
+console.log(number)
+
+function max(a, b) {
+    return (a > b) ? a:b
 }
