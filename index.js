@@ -1,6 +1,4 @@
-let number = max (9, 90)
-console.log(number)
-
-function max(a, b) {
-    return (a > b) ? a:b
+console.log(isLandscape(800, 700))
+function isLandscape (width, height) {
+    return (width > height)
 }
