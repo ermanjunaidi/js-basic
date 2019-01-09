@@ -1,19 +1,21 @@
-const output = fizzbuzz(1)
-console.log(output)
 
-function fizzbuzz(input) {
-    if(typeof input !== 'number')
-        return NaN
-        
-    if ((input % 3 === 0 ) && (input % 5 === 0))
-        return 'fizz Buzz'
-
-    if (input % 3 === 0)
-        return 'fizz'
-
-    if (input % 5 === 0)
-        return 'buzz'
-        
+checkSpeed(120)
+function checkSpeed(speed) {
     
-        return input
+    const speedLimit = 70
+    const kmPerPoint = 5
+    
+    if (speed < speedLimit + kmPerPoint) {
+        console.log('ok')
+        return
+        }
+    else {
+        const points = Math.floor((speed - speedLimit) / kmPerPoint)
+        if (points >= 12)
+        console.log('License Suspended')
+        else
+        console.log('Points', points)
+
+    }
+
 }
