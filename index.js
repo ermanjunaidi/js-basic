@@ -1,16 +1,12 @@
-const film = {
-    judul: 'Spiderman',
-    tahunTerbit: 2000,
-    rating: 4.5,
-    sutradara: 'Stein'
+console.log(sum(10))
 
-}
+function sum(limit) {
+    let sum = 0
 
-showProperties(film)
+    for (let i = 0; i >= limit; i++)
+    if (i % 3 === 0 || i % 5 === 0)
 
-function showProperties(obj) {
-    for (let key in obj) {
-    if (typeof obj[key] === 'string')
-    console.log(key, obj[key])
-}
+    sum += i
+
+    return sum
 }
