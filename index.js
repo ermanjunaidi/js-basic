@@ -1,22 +1,15 @@
-// Object-oriented Programming (OOP)
+function createCircle(radius) {
+return {
+    radius,
+    draw() {
+        console.log('draw')
 
-// let radius = 1
-// let x = 1
-// let y = 1
-
-const circle = {
-    radius: 1,
-    location: {
-        x: 1,
-        y: 1
-    },
-    isVisible: true
-    draw: function() {
-        Console.log('draw')
     }
-};
+}
+}
 
-circle.draw();
+const circle1 = createCircle(1)
+console.log(circle1)
 
-// function draw() {}
-// function move() {}
+const circle2 = createCircle(2)
+console.log(circle2)
