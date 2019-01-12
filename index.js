@@ -1,15 +1,22 @@
-showPrimes(50)
+// Object-oriented Programming (OOP)
 
+// let radius = 1
+// let x = 1
+// let y = 1
 
-function showPrimes(limit) {
-    for (let number = 2; number <= limit; number++)    
-        if (isPrime(number)) console.log(number)
+const circle = {
+    radius: 1,
+    location: {
+        x: 1,
+        y: 1
+    },
+    isVisible: true
+    draw: function() {
+        Console.log('draw')
     }
-    
-    function isPrime(number) {   
-        for (let factor = 2; factor < number; factor++) 
-        if (number % factor === 0) 
-            return false
-            return true
-        
-}
+};
+
+circle.draw();
+
+// function draw() {}
+// function move() {}
